@@ -5,3 +5,8 @@ function alertFunction (){
 }
 
 btn.onclick = alertFunction;
+
+
+btnUnclick = document.querySelector('.btnUnclick');
+
+btnUnclick.addEventListener('click', alertFunction);
